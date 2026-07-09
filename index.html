@@ -1,1 +1,261 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>alAxionArtGroup | نقاشی ساختمان محمد عباسی</title>
+
+<style>
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f1ede9;
+  color: #2b2b2b;
+}
+
+/* منو */
+nav {
+  position: sticky;
+  top: 0;
+  background: #ffffffdd;
+  backdrop-filter: blur(8px);
+  display: flex;
+  gap: 18px;
+  padding: 14px 20px;
+  border-bottom: 1px solid #ddd;
+  z-index: 100;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* هدر */
+header {
+  text-align: center;
+  padding: 60px 0;
+}
+
+header img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header p {
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.9;
+  color: #555;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 24px;
+  background: #111;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+/* سکشن‌ها */
+section {
+  margin-top: 80px;
+}
+
+section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  border-right: 4px solid #444;
+  padding-right: 10px;
+}
+
+/* خدمات */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+/* گالری */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.gallery-item p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
+  color: #555;
+}
+
+/* لینک کاتالوگ */
+.catalog-link {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.catalog-link a {
+  color: #000;
+  font-weight: bold;
+}
+
+/* دکمه واتساپ شناور */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #25d366;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+/* تماس */
+.contact a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.whatsapp { background: #25D366; }
+.instagram { background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af); }
+.phone { background: #444; }
+.email { background: #555; }
+
+footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 13px;
+  color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#home">خانه</a>
+  <a href="#services">خدمات</a>
+  <a href="#portfolio">نمونه کارها</a>
+  <a href="#about">درباره ما</a>
+  <a href="#contact">ارتباط</a>
+</nav>
+
+<div class="container">
+
+<header id="home">
+  <img src="logo/Axion-Art-Group-Logo.jpg">
+  <h1>Axion Art Group</h1>
+  <p>گروه نقاشی ساختمان Axion Art Group با مدیریت محمد عباسی</p>
+  <a href="tel:09396801433" class="cta-btn">تماس مستقیم</a>
+</header>
+
+<section id="services">
+<h2>خدمات ما</h2>
+<div class="services">
+  <div class="service">نقاشی ساختمان روغنی و پلاستیک</div>
+  <div class="service">نقاشی مدرن و دکوراتیو</div>
+  <div class="service">پتینه، بلکا و کاغذ دیواری</div>
+  <div class="service">ترمیم رنگ‌های قدیمی</div>
+</div>
+</section>
+
+<section id="portfolio">
+<h2>نمونه کارها</h2>
+
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="images/IMG_20250902_181312.jpg">
+    <p>طراحی و اجرای نمای خاص مدرن</p>
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/1000002468.jpg">
+    <p>اجرای رنگ نمای ساختمان دوبلکس</p>
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/IMG_20250925_091653.jpg">
+    <p>نقاشی نمای ویلای مدرن – تهراندشت</p>
+  </div>
+</div>
+
+<div class="catalog-link">
+  جهت دیدن نمونه‌های بیشتر از
+  <a href="https://docs.google.com/presentation/d/e/2PACX-1vR9NnaO5Hvq6qVaDANLJLsiI6KYgy-DIPZEXBHKJOYOKNM9OYRxnUqZPJMJJhhFg7iI8H4RJN-yLVGT/pub" target="_blank">
+    کاتالوگ تصاویر
+  </a>
+  دیدن فرمایید
+</div>
+</section>
+
+<section id="about">
+<h2>درباره ما</h2>
+<p>
+Axion Art Group با تمرکز بر کیفیت، خوش‌قولی و اجرای تمیز فعالیت می‌کند.
+</p>
+</section>
+
+<section id="contact" class="contact">
+<h2>ارتباط با ما</h2>
+
+<a href="tel:+989396801433" class="phone">تماس تلفنی</a>
+<a href="https://wa.me/989396801433" class="whatsapp">واتساپ</a>
+<a href="https://instagram.com/AxionArtGroup" class="instagram">اینستاگرام</a>
+<a href="mailto:AxionArtGroup@gmail.com" class="email">ایمیل</a>
+</section>
+
+</div>
+
+<!-- واتساپ شناور -->
+<a href="https://wa.me/989396801433?text=سلام،%20برای%20نقاشی%20ساختمان%20پیام%20میدم"
+   class="whatsapp-float"
+   target="_blank">
+  واتساپ
+</a>
+
+<footer>
+© 2025 alAxionArtGroup — نقاشی ساختمان محمد عباسی
+</footer>
+
+</body>
+</html>
